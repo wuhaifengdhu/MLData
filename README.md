@@ -1,7 +1,7 @@
 # pypi starter project
 
-[![Build Status](https://travis-ci.org/wuhaifengdhu/pypi-starter.svg?branch=master)](https://travis-ci.org/wuhaifengdhu/pypi-starter)
-[![codecov](https://codecov.io/gh/wuhaifengdhu/pypi-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/wuhaifengdhu/pypi-starter)
+[![Build Status](https://travis-ci.org/wuhaifengdhu/python-module-starter.svg?branch=master)](https://travis-ci.org/wuhaifengdhu/python-module-starter)
+[![codecov](https://codecov.io/gh/wuhaifengdhu/python-module-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/wuhaifengdhu/python-module-starter)
 
 This is a template repository that you can use to quickly create a python application that can be built, tested, and released as an internal python module.
 
@@ -12,7 +12,7 @@ This is a template repository that you can use to quickly create a python applic
 mkdir new_repo_name
 cd new_repo_name
 git init
-git pull https://github.com/wuhaifengdhu/pypi-starter
+git pull https://github.com/wuhaifengdhu/python-module-starter.git
 ```
 
 ## Build
