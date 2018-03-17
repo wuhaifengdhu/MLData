@@ -2,5 +2,5 @@
 Your application
 """
 
-from submodule.main import *
+from lib.process import *
 from main import *

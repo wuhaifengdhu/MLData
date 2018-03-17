@@ -41,8 +41,8 @@ setup(
     data_files=[
         ('', ['ReleaseNotes.md']),
     ],
-    # For data inside packages can use the automatic inclusion
+    # For lib inside packages can use the automatic inclusion
     # include_package_data = True,
     # or the explicit inclusion, eg:
-    # package_data = { 'package_name': ['data.file1', 'data.file2' , ...] }
+    # package_data = { 'package_name': ['lib.file1', 'lib.file2' , ...] }
 )
