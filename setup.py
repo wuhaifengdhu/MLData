@@ -15,10 +15,10 @@ __author__ = "Wu Haifeng"
 __email__ = "wuhaifengdhu@163.com"
 
 # Change this line to the module name you want to create
-__title__ = "python-module-starter"
+__title__ = "MLData"
 __version__ = "1.0.0"
-__summary__ = "This package creates a framework for python packages to be built."
-__uri__ = "https://github.com/wuhaifengdhu/python-module-starter"
+__summary__ = "MLData is used to clean data before machine learning process!"
+__uri__ = "https://github.com/wuhaifengdhu/MLData.git"
 
 __requirements__ = [
     'six>=1.11.0'
