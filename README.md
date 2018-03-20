@@ -9,7 +9,8 @@ MLData, is a project to clean and normalize data for machine learning process.
 ## Cool feature     
 1, Clean data in your csv file with your given invalid value list, and replace that with mean value of good values.        
 2, Use Z-Score function to normalize numerical value and scale to (-4, 4), cut to -4 or 4 if it over the range.             
-3, Normalize category columns according to the positive rate, and use Z-Score to (-4, 4)      
+3, Normalize category columns according to the positive rate, and use Z-Score to (-4, 4)       
+4, Function for you to easy save normalized data into csv file.              
         
 
 ## How to use
