@@ -1,4 +1,4 @@
-#MLData      
+# MLData      
 MLData, is a project to clean and normalize data for machine learning process.
 
 
@@ -6,9 +6,13 @@ MLData, is a project to clean and normalize data for machine learning process.
 ```pip install mldata```
 
 
+## Cool feature     
+1, Clean data in your csv file with your given invalid value list, and replace that with mean value of good values.        
+2, Use Z-Score function to normalize numerical value and scale to (-4, 4), cut to -4 or 4 if it over the range.             
+3, Normalize category columns according to the positive rate, and use Z-Score to (-4, 4)      
+        
 
-
-## Usage Example
+## How to use
 Usage Example:    
 ```
 from mldata import Processor
@@ -31,12 +35,12 @@ Processor(csv_file_path, target_column, exclude_column_list=None, category_list=
 
 ```
 Parameters:     
-csv_file_path: The origin csv file path                
-target_column: The column name of the target              
-exclude_column_list: Columns no need to normalize       
-category_list: A column name list which are category based columns       
-positive_tag: The positive tag for the target column value, default value is 1        
-invalid_values: values in csv not valid, such as "?", "", "null", None     
+**csv_file_path**: The origin csv file path                
+**target_column**: The column name of the target              
+**exclude_column_list**: Columns no need to normalize       
+**category_list**: A column name list which are category based columns       
+**positive_tag**: The positive tag for the target column value, default value is 1        
+**invalid_values**: values in csv not valid, such as "?", "", "null", None     
             
 2, Norm the list
 ```buildoutcfg
@@ -51,4 +55,4 @@ Processor.save_to_file(new_file_name)
 ``` 
 This function is used to save normalized output to csv file.            
 Parameters: 
-new_file_name: The new file name to save the normalized data             
+**new_file_name**: The new file name to save the normalized data             
