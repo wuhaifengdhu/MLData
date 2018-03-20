@@ -16,7 +16,7 @@ __email__ = "wuhaifengdhu@163.com"
 
 # Change this line to the module name you want to create
 __title__ = "MLData"
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 __summary__ = "MLData is used to clean data before machine learning process!"
 __uri__ = "https://github.com/wuhaifengdhu/MLData.git"
 
