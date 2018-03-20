@@ -35,7 +35,8 @@ Processor(csv_file_path, target_column, exclude_column_list=None, category_list=
                  csv_header=0, invalid_values=None)
 
 ```
-Parameters:     
+This is the construct function to build processor.        
+Parameters:      
 **csv_file_path**: The origin csv file path                
 **target_column**: The column name of the target              
 **exclude_column_list**: Columns no need to normalize       
@@ -54,6 +55,6 @@ This function is used to do norm to the csv file.
 ```buildoutcfg
 Processor.save_to_file(new_file_name)          
 ``` 
-This function is used to save normalized output to csv file.            
-Parameters: 
+This function is used to save normalized output to csv file.                  
+Parameters:       
 **new_file_name**: The new file name to save the normalized data             
