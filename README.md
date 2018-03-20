@@ -11,15 +11,15 @@ MLData, is a project to clean and normalize data for machine learning process.
 ## Usage Example
 Usage Example:    
 ```
-        from mldata import Processor
-        new_file_path = "outputs/new.csv"
-        processor = Processor("resource/raw_dataset.csv", target_column="APPROVE/NOT", exclude_column_list=["id"],
-                              category_list=["Work Class", "FnlWgt", "Education", "Maried Status", "Occupation",
-                                             "Relationship", "Race", "Gender", "Native Country", "Flag"],
-                              invalid_values=["?", "", "null", None],
-                              positive_tag=1)
-        processor.normalize()
-        processor.save_to_file(new_file_path)
+from mldata import Processor
+new_file_path = "outputs/new.csv"
+processor = Processor("resource/raw_dataset.csv", target_column="APPROVE/NOT", exclude_column_list=["id"],
+                      category_list=["Work Class", "FnlWgt", "Education", "Maried Status", "Occupation",
+                                      "Relationship", "Race", "Gender", "Native Country", "Flag"],
+                      invalid_values=["?", "", "null", None],
+                      positive_tag=1)
+processor.normalize()
+processor.save_to_file(new_file_path)
 ```
 
 
